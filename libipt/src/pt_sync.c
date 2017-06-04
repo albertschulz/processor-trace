@@ -35,7 +35,7 @@
 
 /* A psb packet contains a unique 2-byte repeating pattern.
  *
- * There are only two ways to fill up a 64bit work with such a pattern.
+ * There are only two ways to fill up a 64bit word with such a pattern.
  */
 const uint64_t psb_pattern[] = {
 	((uint64_t) pt_psb_lohi		| (uint64_t) pt_psb_lohi << 16 |
